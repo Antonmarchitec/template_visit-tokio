@@ -1,0 +1,36 @@
+.btnTop{
+    width: 45px;
+    height: 45px;
+    background: $color-text-title;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+    .btnTop_icon{
+        color: white;
+    }
+}
+.btnTop:hover{
+    cursor: pointer;
+}
+
+.btnTop_JS{
+   opacity: 1;
+   animation: moviArrow;
+   animation-duration:1s;
+   animation-timing-function: ease-in;
+   animation-iteration-count:infinite ;
+   animation-direction: alternate;
+}
+@keyframes moviArrow {
+    from{
+       transform: translateY(0px);
+    }to{
+       transform: translateY(10px);
+    }
+}

@@ -1,0 +1,627 @@
+.grid_sectionC{
+    width: 100%;
+    //background: grey;
+    .container_sectionC{
+        width: 100%;
+        padding: 100px 0px;
+        background:$color-base;
+      
+        .sectionC_h2{
+            text-align: center;
+            color: rgb(156, 156, 156);
+            text-transform: uppercase;
+            font-size: 35px;
+            letter-spacing: 8px;
+        }
+
+        .sectionC_h1{
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-size: 50px;
+        }
+
+        .sectionC_gridContainer{
+            margin: 50px 0px;
+            width: 100%;
+            padding: 10px 0px;
+            //background:brown;
+            display: grid;
+            //gap: 5px;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            grid-template-areas:"grid_block1    grid_block2   grid_block3   grid_block4"
+                                "grid_block5    grid_block6   grid_block7   grid_block8";
+            .grid_block1{
+                //padding: 10px 0px;
+                //background: rgb(222, 80, 80);
+                grid-area:grid_block1;
+                .containerBlock{
+                    width: 100%;
+                    height: 350px;
+                    background:url(../image/por1.jpg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                    .containerBlock_interno{
+                        width: 100%;
+                        height: 100%;
+                        background:transparent;
+                        position: relative;
+                        transition: 0.5s all;
+                        .interno_bar1{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            left: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(-100px);
+                        }
+                        .interno_icon{
+                            width: 80px;
+                            height: 80px;
+                            background-color:$color-text-title ;
+                            position: absolute;
+                            border-radius: 50%;
+                            top: 140px;
+                            left: calc(50% - 45px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center ;
+                            opacity: 0;
+                            transition: 0.5s all;
+                            .icon_icon{
+                                color:$color-base;
+                                font-size: 50px;
+                            }
+                        }
+                        .interno_bar2{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            right: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(100px);
+                        }
+                    }
+                    .containerBlock_interno:hover{
+                        background: rgba(0, 0, 0, 0.783);
+                        cursor: pointer;
+                        .interno_bar1{
+                            transform: translateX(0);
+                        }
+                        .interno_icon{
+                            opacity: 1;
+                        }
+                        .interno_bar2{
+                            transform: translate(0px);
+                        }
+                    }
+                } 
+            }
+
+
+            .grid_block2{
+                //padding: 10px 0px;
+                //background: rgb(222, 80, 80);
+                grid-area:grid_block2;
+                .containerBlock{
+                    width: 100%;
+                    height: 350px;
+                    background:url(../image/por2.jpg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                    .containerBlock_interno{
+                        width: 100%;
+                        height: 100%;
+                        background:transparent;
+                        position: relative;
+                        transition: 0.5s all;
+                        .interno_bar1{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            left: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(-100px);
+                        }
+                        .interno_icon{
+                            width: 80px;
+                            height: 80px;
+                            background-color:$color-text-title ;
+                            position: absolute;
+                            border-radius: 50%;
+                            top: 140px;
+                            left: calc(50% - 45px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center ;
+                            opacity: 0;
+                            transition: 0.5s all;
+                            .icon_icon{
+                                color:$color-base;
+                                font-size: 50px;
+                            }
+                        }
+                        .interno_bar2{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            right: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(100px);
+                        }
+                    }
+                    .containerBlock_interno:hover{
+                        background: rgba(0, 0, 0, 0.783);
+                        cursor: pointer;
+                        .interno_bar1{
+                            transform: translateX(0);
+                        }
+                        .interno_icon{
+                            opacity: 1;
+                        }
+                        .interno_bar2{
+                            transform: translate(0px);
+                        }
+                    }
+                } 
+            }
+
+
+            .grid_block3{
+                //padding: 10px 0px;
+                //background: rgb(222, 80, 80);
+                grid-area:grid_block3;
+                .containerBlock{
+                    width: 100%;
+                    height: 350px;
+                    background:url(../image/por3.jpg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                    .containerBlock_interno{
+                        width: 100%;
+                        height: 100%;
+                        background:transparent;
+                        position: relative;
+                        transition: 0.5s all;
+                        .interno_bar1{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            left: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(-100px);
+                        }
+                        .interno_icon{
+                            width: 80px;
+                            height: 80px;
+                            background-color:$color-text-title ;
+                            position: absolute;
+                            border-radius: 50%;
+                            top: 140px;
+                            left: calc(50% - 45px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center ;
+                            opacity: 0;
+                            transition: 0.5s all;
+                            .icon_icon{
+                                color:$color-base;
+                                font-size: 50px;
+                            }
+                        }
+                        .interno_bar2{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            right: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(100px);
+                        }
+                    }
+                    .containerBlock_interno:hover{
+                        background: rgba(0, 0, 0, 0.783);
+                        cursor: pointer;
+                        .interno_bar1{
+                            transform: translateX(0);
+                        }
+                        .interno_icon{
+                            opacity: 1;
+                        }
+                        .interno_bar2{
+                            transform: translate(0px);
+                        }
+                    }
+                } 
+            }
+
+
+            .grid_block4{
+                //padding: 10px 0px;
+                //background: rgb(222, 80, 80);
+                grid-area:grid_block4;
+                .containerBlock{
+                    width: 100%;
+                    height: 350px;
+                    background:url(../image/por4.jpg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                    .containerBlock_interno{
+                        width: 100%;
+                        height: 100%;
+                        background:transparent;
+                        position: relative;
+                        transition: 0.5s all;
+                        .interno_bar1{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            left: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(-100px);
+                        }
+                        .interno_icon{
+                            width: 80px;
+                            height: 80px;
+                            background-color:$color-text-title ;
+                            position: absolute;
+                            border-radius: 50%;
+                            top: 140px;
+                            left: calc(50% - 45px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center ;
+                            opacity: 0;
+                            transition: 0.5s all;
+                            .icon_icon{
+                                color:$color-base;
+                                font-size: 50px;
+                            }
+                        }
+                        .interno_bar2{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            right: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(100px);
+                        }
+                    }
+                    .containerBlock_interno:hover{
+                        background: rgba(0, 0, 0, 0.783);
+                        cursor: pointer;
+                        .interno_bar1{
+                            transform: translateX(0);
+                        }
+                        .interno_icon{
+                            opacity: 1;
+                        }
+                        .interno_bar2{
+                            transform: translate(0px);
+                        }
+                    }
+                } 
+            }
+
+
+            .grid_block5{
+                //padding: 10px 0px;
+                //background: rgb(222, 80, 80);
+                grid-area:grid_block5;
+                .containerBlock{
+                    width: 100%;
+                    height: 350px;
+                    background:url(../image/por5.jpg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                    .containerBlock_interno{
+                        width: 100%;
+                        height: 100%;
+                        background:transparent;
+                        position: relative;
+                        transition: 0.5s all;
+                        .interno_bar1{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            left: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(-100px);
+                        }
+                        .interno_icon{
+                            width: 80px;
+                            height: 80px;
+                            background-color:$color-text-title ;
+                            position: absolute;
+                            border-radius: 50%;
+                            top: 140px;
+                            left: calc(50% - 45px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center ;
+                            opacity: 0;
+                            transition: 0.5s all;
+                            .icon_icon{
+                                color:$color-base;
+                                font-size: 50px;
+                            }
+                        }
+                        .interno_bar2{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            right: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(100px);
+                        }
+                    }
+                    .containerBlock_interno:hover{
+                        background: rgba(0, 0, 0, 0.783);
+                        cursor: pointer;
+                        .interno_bar1{
+                            transform: translateX(0);
+                        }
+                        .interno_icon{
+                            opacity: 1;
+                        }
+                        .interno_bar2{
+                            transform: translate(0px);
+                        }
+                    }
+                } 
+            }
+
+
+            .grid_block6{
+                //padding: 10px 0px;
+                //background: rgb(222, 80, 80);
+                grid-area:grid_block6;
+                .containerBlock{
+                    width: 100%;
+                    height: 350px;
+                    background:url(../image/por6.jpg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                    .containerBlock_interno{
+                        width: 100%;
+                        height: 100%;
+                        background:transparent;
+                        position: relative;
+                        transition: 0.5s all;
+                        .interno_bar1{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            left: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(-100px);
+                        }
+                        .interno_icon{
+                            width: 80px;
+                            height: 80px;
+                            background-color:$color-text-title ;
+                            position: absolute;
+                            border-radius: 50%;
+                            top: 140px;
+                            left: calc(50% - 45px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center ;
+                            opacity: 0;
+                            transition: 0.5s all;
+                            .icon_icon{
+                                color:$color-base;
+                                font-size: 50px;
+                            }
+                        }
+                        .interno_bar2{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            right: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(100px);
+                        }
+                    }
+                    .containerBlock_interno:hover{
+                        background: rgba(0, 0, 0, 0.783);
+                        cursor: pointer;
+                        .interno_bar1{
+                            transform: translateX(0);
+                        }
+                        .interno_icon{
+                            opacity: 1;
+                        }
+                        .interno_bar2{
+                            transform: translate(0px);
+                        }
+                    }
+                } 
+            }
+
+
+            .grid_block7{
+                 //padding: 10px 0px;
+                //background: rgb(222, 80, 80);
+                grid-area:grid_block7;
+                .containerBlock{
+                    width: 100%;
+                    height: 350px;
+                    background:url(../image/por7.jpg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                    .containerBlock_interno{
+                        width: 100%;
+                        height: 100%;
+                        background:transparent;
+                        position: relative;
+                        transition: 0.5s all;
+                        .interno_bar1{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            left: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(-100px);
+                        }
+                        .interno_icon{
+                            width: 80px;
+                            height: 80px;
+                            background-color:$color-text-title ;
+                            position: absolute;
+                            border-radius: 50%;
+                            top: 140px;
+                            left: calc(50% - 45px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center ;
+                            opacity: 0;
+                            transition: 0.5s all;
+                            .icon_icon{
+                                color:$color-base;
+                                font-size: 50px;
+                            }
+                        }
+                        .interno_bar2{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            right: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(100px);
+                        }
+                    }
+                    .containerBlock_interno:hover{
+                        background: rgba(0, 0, 0, 0.783);
+                        cursor: pointer;
+                        .interno_bar1{
+                            transform: translateX(0);
+                        }
+                        .interno_icon{
+                            opacity: 1;
+                        }
+                        .interno_bar2{
+                            transform: translate(0px);
+                        }
+                    }
+                } 
+            }
+
+
+            .grid_block8{
+                //padding: 10px 0px;
+                //background: rgb(222, 80, 80);
+                grid-area:grid_block8;
+                .containerBlock{
+                    width: 100%;
+                    height: 350px;
+                    background:url(../image/por8.jpg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                    .containerBlock_interno{
+                        width: 100%;
+                        height: 100%;
+                        background:transparent;
+                        position: relative;
+                        transition: 0.5s all;
+                        .interno_bar1{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            left: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(-100px);
+                        }
+                        .interno_icon{
+                            width: 80px;
+                            height: 80px;
+                            background-color:$color-text-title ;
+                            position: absolute;
+                            border-radius: 50%;
+                            top: 140px;
+                            left: calc(50% - 45px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center ;
+                            opacity: 0;
+                            transition: 0.5s all;
+                            .icon_icon{
+                                color:$color-base;
+                                font-size: 50px;
+                            }
+                        }
+                        .interno_bar2{
+                            width: 50px;
+                            height: 3px;
+                            background: $color-text-title;
+                            border-radius: 5px;
+                            position: absolute;
+                            right: 20px;
+                            top: 180px;
+                            transition: 0.5s all;
+                            transform: translateX(100px);
+                        }
+                    }
+                    .containerBlock_interno:hover{
+                        background: rgba(0, 0, 0, 0.783);
+                        cursor: pointer;
+                        .interno_bar1{
+                            transform: translateX(0);
+                        }
+                        .interno_icon{
+                            opacity: 1;
+                        }
+                        .interno_bar2{
+                            transform: translate(0px);
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}

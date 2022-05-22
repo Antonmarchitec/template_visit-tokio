@@ -1,0 +1,22 @@
+.container_boxA{
+    width: 100%;
+    height: 400px;
+    background:url(../image/background-B.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    .container_boxA_gradientTop{
+        width: 100%;
+        height: 50%;
+        background:linear-gradient($color-base,transparent );
+        position: absolute;
+        top: 0;
+    }
+    .container_boxA_gradientBottom{
+        width: 100%;
+        height: 50%;
+        background:linear-gradient(transparent, $color-base);
+        position: absolute;
+        bottom: 0;
+    }
+}

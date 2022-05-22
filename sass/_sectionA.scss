@@ -1,0 +1,57 @@
+.container_sectionA{
+    width: 100%;
+    padding: 100px 0px;
+    background: #192229;
+    .sectionA_h2{
+       text-align: center;
+       color: white;
+       text-transform: uppercase;
+
+       
+    }
+    .sectionA_h1{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    .sectionA_containerBlocks{
+        margin: 40px auto;
+        width: 100%;
+        padding: 10px 0px;
+        //background: greenyellow;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .containerBlocks_box{
+            width: 250px;
+            height: 300px;
+            background: white;
+            border-radius: 8px;
+            position: relative;
+            .contenedor{
+                width: 100%;
+                padding: 50px 0px;
+                background:linear-gradient(transparent, #192229);
+                position: absolute;
+                bottom: 0;
+                line-height: 23px;
+                .containerBlocks_box_title{
+                    color: white;
+                    text-align: center;
+                 
+                 
+                }
+                .containerBlocks_box_description{
+                    color: white;
+                    text-align: center;
+                   
+    
+                }
+            }
+            
+        }
+    }
+}
