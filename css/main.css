@@ -6,6 +6,7 @@
 
 body {
   font-family: "Oswald", sans-serif;
+  background: black;
 }
 
 html {
@@ -98,9 +99,7 @@ a {
     max-width: 1440px;
     margin: auto;
     background: #121212;
-    background: brown;
     display: grid;
-    gap: 1em;
   }
   .grid_container .grid_header_movil {
     padding: 10px 0px;
@@ -1381,6 +1380,11 @@ a {
   bottom: 0;
 }
 
+@media (min-width: 320px) and (max-width: 1200px) {
+  .container_boxA {
+    height: 250px;
+  }
+}
 .container_sectionA {
   width: 100%;
   padding: 100px 0px;
@@ -2022,6 +2026,110 @@ a {
   transform: translate(0px);
 }
 
+@media (min-width: 641px) and (max-width: 1024px) {
+  .grid_sectionC {
+    width: 100%;
+  }
+  .grid_sectionC .container_sectionC {
+    width: 100%;
+    padding: 100px 0px;
+    background: #121212;
+    line-height: 50px;
+  }
+  .grid_sectionC .container_sectionC .sectionC_h2 {
+    text-align: center;
+    color: rgb(156, 156, 156);
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 8px;
+  }
+  .grid_sectionC .container_sectionC .sectionC_h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .grid_sectionC .container_sectionC .sectionC_gridContainer {
+    margin: 50px 0px;
+    width: 90%;
+    padding: 10px 0px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "grid_block1    grid_block2 " "grid_block3    grid_block4 " "grid_block5    grid_block6 " "grid_block7    grid_block8 ";
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .grid_sectionC {
+    width: 100%;
+  }
+  .grid_sectionC .container_sectionC {
+    width: 100%;
+    padding: 100px 0px;
+    background: #121212;
+    line-height: 50px;
+  }
+  .grid_sectionC .container_sectionC .sectionC_h2 {
+    text-align: center;
+    color: rgb(156, 156, 156);
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 8px;
+  }
+  .grid_sectionC .container_sectionC .sectionC_h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .grid_sectionC .container_sectionC .sectionC_gridContainer {
+    margin: 50px 0px;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "grid_block1    grid_block2 " "grid_block3    grid_block4 " "grid_block5    grid_block6 " "grid_block7    grid_block8 ";
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid_sectionC {
+    width: 100%;
+  }
+  .grid_sectionC .container_sectionC {
+    width: 100%;
+    padding: 100px 0px;
+    background: #121212;
+    line-height: 50px;
+  }
+  .grid_sectionC .container_sectionC .sectionC_h2 {
+    text-align: center;
+    color: rgb(156, 156, 156);
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 8px;
+    line-height: 35px;
+  }
+  .grid_sectionC .container_sectionC .sectionC_h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .grid_sectionC .container_sectionC .sectionC_gridContainer {
+    margin: initial;
+    width: 95%;
+    padding: 10px 0px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "grid_block1    grid_block1 " "grid_block2    grid_block2 " "grid_block3    grid_block3 " "grid_block4    grid_block4 " "grid_block5    grid_block5 " "grid_block6    grid_block6 " "grid_block7    grid_block7 " "grid_block8    grid_block8 ";
+  }
+}
 .container_boxB {
   width: 100%;
   height: 400px;
@@ -2114,6 +2222,362 @@ a {
   color: #121212;
 }
 
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .container_sectionB {
+    width: 100%;
+    height: 500px;
+    background: url(../image/por6.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .container_sectionB .sectionB_gradient {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(#121212, transparent);
+  }
+  .container_sectionB .sectionB_title {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: -5;
+    line-height: 70px;
+  }
+  .container_sectionB .sectionB_parraf {
+    width: 350px;
+    color: white;
+    position: absolute;
+    left: 100px;
+    bottom: 150px;
+    font-weight: 100;
+  }
+  .container_sectionB .sectionB_media {
+    width: 50%;
+    padding: 20px 0px;
+    position: absolute;
+    right: 50px;
+    top: 80px;
+  }
+  .container_sectionB .sectionB_media .video-js {
+    width: 100%;
+    border: 3px solid rgb(247, 95, 95);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .container_sectionB .sectionB_media .video-js:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-control-bar {
+    background: #121212;
+    color: rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-play-progress,
+.container_sectionB .sectionB_media .vjs-volume-level {
+    background: rgb(255, 255, 255);
+  }
+  .container_sectionB .sectionB_media .vjs-slider {
+    background: rgb(126, 126, 126);
+  }
+  .container_sectionB .sectionB_media .vjs-big-play-button {
+    background: rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-big-play-button:hover {
+    background: rgb(247, 95, 95);
+    color: #121212;
+  }
+}
+@media (min-width: 770px) and (max-width: 1024px) {
+  .container_sectionB {
+    width: 100%;
+    height: 500px;
+    background: url(../image/por6.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .container_sectionB .sectionB_gradient {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(#121212, transparent);
+  }
+  .container_sectionB .sectionB_title {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -5;
+    line-height: 50px;
+  }
+  .container_sectionB .sectionB_parraf {
+    width: 300px;
+    color: white;
+    position: absolute;
+    left: 100px;
+    bottom: 150px;
+    font-weight: 100;
+  }
+  .container_sectionB .sectionB_media {
+    width: 40%;
+    padding: 20px 0px;
+    position: absolute;
+    right: 100px;
+    top: 80px;
+  }
+  .container_sectionB .sectionB_media .video-js {
+    width: 100%;
+    border: 3px solid rgb(247, 95, 95);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .container_sectionB .sectionB_media .video-js:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-control-bar {
+    background: #121212;
+    color: rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-play-progress,
+.container_sectionB .sectionB_media .vjs-volume-level {
+    background: rgb(255, 255, 255);
+  }
+  .container_sectionB .sectionB_media .vjs-slider {
+    background: rgb(126, 126, 126);
+  }
+  .container_sectionB .sectionB_media .vjs-big-play-button {
+    background: rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-big-play-button:hover {
+    background: rgb(247, 95, 95);
+    color: #121212;
+  }
+}
+@media (min-width: 641px) and (max-width: 769px) {
+  .container_sectionB {
+    width: 100%;
+    height: 500px;
+    background: url(../image/por6.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .container_sectionB .sectionB_gradient {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(#121212, transparent);
+  }
+  .container_sectionB .sectionB_title {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -5;
+    line-height: 50px;
+  }
+  .container_sectionB .sectionB_parraf {
+    width: 250px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    bottom: initial;
+    font-weight: 100;
+  }
+  .container_sectionB .sectionB_media {
+    width: 50%;
+    padding: 20px 0px;
+    position: absolute;
+    right: 20px;
+    top: 200px;
+  }
+  .container_sectionB .sectionB_media .video-js {
+    width: 100%;
+    border: 3px solid rgb(247, 95, 95);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .container_sectionB .sectionB_media .video-js:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-control-bar {
+    background: #121212;
+    color: rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-play-progress,
+.container_sectionB .sectionB_media .vjs-volume-level {
+    background: rgb(255, 255, 255);
+  }
+  .container_sectionB .sectionB_media .vjs-slider {
+    background: rgb(126, 126, 126);
+  }
+  .container_sectionB .sectionB_media .vjs-big-play-button {
+    background: rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-big-play-button:hover {
+    background: rgb(247, 95, 95);
+    color: #121212;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .container_sectionB {
+    width: 100%;
+    height: 500px;
+    background: url(../image/por6.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .container_sectionB .sectionB_gradient {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(#121212, transparent);
+  }
+  .container_sectionB .sectionB_title {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -5;
+    line-height: 40px;
+  }
+  .container_sectionB .sectionB_parraf {
+    width: 380px;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    left: 10%;
+    top: 200px;
+    bottom: initial;
+    font-weight: 100;
+  }
+  .container_sectionB .sectionB_media {
+    width: 60%;
+    padding: 20px 0px;
+    position: absolute;
+    right: initial;
+    left: 20%;
+    top: 270px;
+  }
+  .container_sectionB .sectionB_media .video-js {
+    width: 100%;
+    border: 3px solid rgb(247, 95, 95);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .container_sectionB .sectionB_media .video-js:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-control-bar {
+    background: #121212;
+    color: rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-play-progress,
+.container_sectionB .sectionB_media .vjs-volume-level {
+    background: rgb(255, 255, 255);
+  }
+  .container_sectionB .sectionB_media .vjs-slider {
+    background: rgb(126, 126, 126);
+  }
+  .container_sectionB .sectionB_media .vjs-big-play-button {
+    background: rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-big-play-button:hover {
+    background: rgb(247, 95, 95);
+    color: #121212;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .container_sectionB {
+    width: 100%;
+    height: 500px;
+    background: url(../image/por6.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .container_sectionB .sectionB_title {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -5;
+    line-height: 40px;
+  }
+  .container_sectionB .sectionB_parraf {
+    width: 90%;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    left: 5%;
+    top: 200px;
+    bottom: initial;
+    font-weight: 100;
+  }
+  .container_sectionB .sectionB_media {
+    width: 70%;
+    padding: 20px 0px;
+    position: absolute;
+    right: initial;
+    left: 15%;
+    top: 280px;
+  }
+  .container_sectionB .sectionB_media .video-js {
+    width: 100%;
+    border: 3px solid rgb(247, 95, 95);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .container_sectionB .sectionB_media .video-js:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-control-bar {
+    background: #121212;
+    color: rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-play-progress,
+.container_sectionB .sectionB_media .vjs-volume-level {
+    background: rgb(255, 255, 255);
+  }
+  .container_sectionB .sectionB_media .vjs-slider {
+    background: rgb(126, 126, 126);
+  }
+  .container_sectionB .sectionB_media .vjs-big-play-button {
+    background: rgb(247, 95, 95);
+  }
+  .container_sectionB .sectionB_media .vjs-big-play-button:hover {
+    background: rgb(247, 95, 95);
+    color: #121212;
+  }
+}
 .container_footer {
   width: 100%;
   padding: 50px 0px;
@@ -2173,6 +2637,64 @@ a {
   font-size: 14px;
 }
 
+@media (min-width: 480px) and (max-width: 1024px) {
+  .container_footer {
+    width: 100%;
+    padding: 20px 50px;
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container_footer .container_footer_section_A {
+    width: 100%;
+    margin-left: initial;
+  }
+  .container_footer .container_footer_section_A .section_title {
+    color: rgb(247, 95, 95);
+  }
+  .container_footer .container_footer_section_A .section_containerBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container_footer .container_footer_section_A .section_containerBox .containerBox_block {
+    width: 160px;
+  }
+  .container_footer .container_footer_section_A .section_containerBox .containerBox_block .block_text {
+    font-size: 14px;
+    color: white;
+  }
+  .container_footer .container_footer_barra {
+    display: none;
+  }
+  .container_footer .container_footer_section_B {
+    width: 100%;
+    margin-right: 50px;
+  }
+  .container_footer .container_footer_section_B .section_title {
+    color: rgb(247, 95, 95);
+  }
+  .container_footer .container_footer_section_B .section_containerBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .container_footer .container_footer_section_B .section_containerBox .containerBox_block {
+    width: 180px;
+  }
+  .container_footer .container_footer_section_B .section_containerBox .containerBox_block .block_text {
+    color: white;
+    font-size: 14px;
+  }
+}
 .container_socialMedia {
   width: 40px;
   padding: 10px 0px;

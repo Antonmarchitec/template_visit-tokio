@@ -625,3 +625,160 @@
         }
     }
 }
+
+
+
+
+
+
+@media (min-width:641px) and (max-width:1024px){
+    .grid_sectionC{
+        width: 100%;
+        .container_sectionC{
+            width: 100%;
+            padding: 100px 0px;
+            background:$color-base;
+            line-height: 50px;
+            .sectionC_h2{
+                text-align: center;
+                color: rgb(156, 156, 156);
+                text-transform: uppercase;
+                font-size: 35px;
+                letter-spacing: 8px;
+            }
+    
+            .sectionC_h1{
+                text-align: center;
+                color: white;
+                text-transform: uppercase;
+                font-size: 50px;
+            }
+    
+            .sectionC_gridContainer{
+                margin: 50px 0px;
+                width: 90%;
+                padding: 10px 0px;
+                margin: 50px auto;
+                //background:brown;
+                display: grid;
+                //gap: 5px;
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: auto;
+                grid-template-areas:"grid_block1    grid_block2 "
+                                    "grid_block3    grid_block4 "
+                                    "grid_block5    grid_block6 "
+                                    "grid_block7    grid_block8 ";
+               
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@media (min-width:481px) and (max-width:640px){
+    .grid_sectionC{
+        width: 100%;
+        .container_sectionC{
+            width: 100%;
+            padding: 100px 0px;
+            background:$color-base;
+            line-height: 50px;
+            .sectionC_h2{
+                text-align: center;
+                color: rgb(156, 156, 156);
+                text-transform: uppercase;
+                font-size: 35px;
+                letter-spacing: 8px;
+                
+            }
+    
+            .sectionC_h1{
+                text-align: center;
+                color: white;
+                text-transform: uppercase;
+                font-size: 50px;
+            }
+    
+            .sectionC_gridContainer{
+                margin: 50px 0px;
+                width: 100%;
+                padding: 10px 0px;
+                margin: 50px auto;
+                //background:brown;
+                display: grid;
+                //gap: 5px;
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: auto;
+                grid-template-areas:"grid_block1    grid_block2 "
+                                    "grid_block3    grid_block4 "
+                                    "grid_block5    grid_block6 "
+                                    "grid_block7    grid_block8 ";
+               
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:480px){
+    .grid_sectionC{
+        width: 100%;
+        .container_sectionC{
+            width: 100%;
+            padding: 100px 0px;
+            background:$color-base;
+            line-height: 50px;
+            .sectionC_h2{
+                text-align: center;
+                color: rgb(156, 156, 156);
+                text-transform: uppercase;
+                font-size: 30px;
+                letter-spacing: 8px;
+                line-height: 35px;
+            }
+    
+            .sectionC_h1{
+                margin-top: 20px;
+                text-align: center;
+                color: white;
+                text-transform: uppercase;
+                font-size: 50px;
+            }
+    
+            .sectionC_gridContainer{
+                margin: initial;
+                width: 95%;
+                padding: 10px 0px;
+                margin: 50px auto;
+                //background:brown;
+                display: grid;
+                //gap: 5px;
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: auto;
+                grid-template-areas:"grid_block1    grid_block1 "
+                                    "grid_block2    grid_block2 "
+                                    "grid_block3    grid_block3 "
+                                    "grid_block4    grid_block4 "
+                                    "grid_block5    grid_block5 "
+                                    "grid_block6    grid_block6 "
+                                    "grid_block7    grid_block7 "
+                                    "grid_block8    grid_block8 ";
+               
+
+            }
+        }
+    }
+}
+
+
+

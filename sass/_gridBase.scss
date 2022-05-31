@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Oswald', sans-serif;
+    background: black;
     
 }
 
@@ -60,7 +61,7 @@ a{
                              //padding: 10px 0px;
                              //background:rgb(42, 71, 165);
                              grid-area: grid_sectionA;
-                             display: none;
+                             display:none;
                          }
 
                          .grid_sectionC{
@@ -139,9 +140,9 @@ a{
         margin: auto;
         //padding: 10px 0px;
         background: $color-base;
-        background:brown;
+        //background:brown;
         display: grid;
-        gap: 1em;
+        //gap: 1em;
         .grid_header_movil{
             padding: 10px 0px;
             background: brown;
