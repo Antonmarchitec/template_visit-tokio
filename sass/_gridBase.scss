@@ -22,24 +22,32 @@ a{
     margin: auto;
     //padding: 10px 0px;
     background: $color-base;
-    //background: white;
+    //background:brown;
     display: grid;
     //gap: 1em;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "grid_header    grid_header    grid_header    grid_header"
-                         "grid_box_A     grid_box_A     grid_box_A     grid_box_A"
-                         "grid_sectionA  grid_sectionA  grid_sectionA  grid_sectionA"
-                         "grid_sectionC  grid_sectionC  grid_sectionC  grid_sectionC"
-                         "grid_box_B     grid_box_B     grid_box_B     grid_box_B"
-                         "grid_sectionB  grid_sectionB  grid_sectionB  grid_sectionB"
-                         "grid_footer    grid_footer    grid_footer    grid_footer";
+    grid-template-rows: auto;    
+    grid-template-areas: "grid_header_movil  grid_header_movil  grid_header_movil  grid_header_movil"
+                         "grid_header        grid_header        grid_header        grid_header"
+                         "grid_box_A         grid_box_A         grid_box_A         grid_box_A"
+                         "grid_sectionA      grid_sectionA      grid_sectionA      grid_sectionA"
+                         "grid_sectionC      grid_sectionC      grid_sectionC      grid_sectionC"
+                         "grid_box_B         grid_box_B         grid_box_B         grid_box_B"
+                         "grid_sectionB      grid_sectionB      grid_sectionB      grid_sectionB"
+                         "grid_footer        grid_footer        grid_footer        grid_footer";
 
+
+                         .grid_header_movil{
+                            padding: 10px 0px;
+                            background: brown;
+                            grid-area: grid_header_movil;
+                            display: none;
+                         }
                          .grid_header{
                              //padding: 10px 0px;
                              //background: rgb(51, 145, 14);
                              grid-area: grid_header;
-                         }
+                         }                         
 
                          .grid_box_A{
                              //padding: 10px 0px;
@@ -117,3 +125,40 @@ a{
         box-shadow: 0px 0px 25px $color-text-title;
     }
 }
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:999px){
+    .grid_container{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        //padding: 10px 0px;
+        background: $color-base;
+        background:brown;
+        display: grid;
+        gap: 1em;
+        .grid_header_movil{
+            padding: 10px 0px;
+            background: brown;
+            grid-area: grid_header_movil;
+            display: block;
+         }
+         .grid_header{
+            
+            //padding: 10px 0px;
+            //background: rgb(51, 145, 14);
+            grid-area: grid_header;
+        }    
+    }
+
+}
+
+
+
+
+
