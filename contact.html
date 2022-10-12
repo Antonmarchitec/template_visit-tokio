@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="css/preloader.css">
 
+    <!--SWITCH ALERT-->
+    <link rel="stylesheet" href="./css/switchAlert.css">
+
+
     <!--FONT AWESON-->
     <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
 
@@ -62,25 +66,25 @@
 
     <!--CONTAINER FORM-->
     <div class="container_header_registro">
-        <form action="enviar.php" class="container_header_form_">
+        <form action="enviar.php" method="Post" onsubmit="return validar();" class="container_header_form_">
             <div class="container_header_registro_box">
                 <label for="nombre"> Nombre completo </label>
-                <input type="text" placeholder="Antonio Ponce " id="nombre"
+                <input type="text" name="name" placeholder="Antonio Ponce " id="nombre"
                 class="formInput"> 
             </div>
 
             <div class="container_header_registro_box">
                 <label for="correo"> Nombre completo </label>
-                <input type="text" placeholder="example@gmail.com " id="correo"
+                <input type="text" name="gmail" placeholder="example@gmail.com " id="correo"
                 class="formInput"> 
             </div>
 
             <div class="container_header_registro_box">
                 <label for="descripcion"> Dejame un mensaje </label>
-                <textarea class="formTextTarea" placeholder="Comentario"></textarea>
+                <textarea class="formTextTarea" name="comentario" placeholder="Comentario"></textarea>
             </div>
 
-            <button type="button" class="form_btn"> Enviar Mensaje </button>
+            <button type="submit" onclick="validar()" class="form_btn"> Enviar Mensaje </button>
         </form>
     </div>
 
@@ -132,7 +136,14 @@
         <span class="span"> Antonio Ponce || DigitizingCode </span>
      </h2>
 
+
+
+    <!--SCRIPS PERSONALIZADOS-->
     <script src="./js/preloader.js"></script>
     <script src="./js/btnContact.js"></script>
+
+    <!--SWITCH ALERT-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/validacionForm.js"></script>
 </body>
 </html>
