@@ -1,3 +1,5 @@
+@import "../variables";
+
 
 .container_header_form{
     width: 100%;
@@ -138,4 +140,185 @@
             cursor: pointer;
         }
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************/
+/******************************/
+/******************************/
+@media (min-width:320px) and (max-width:720px){
+    .container_header_form{
+        width: 100%;
+        height: 200px;
+        background-image:url(../image/image-background.jpg);
+        background-size: 100% 100%;
+        position: relative;
+        .container_header_blockTop{
+            width: 100%;
+            padding: 5px 0px;
+            background:$color-base;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            z-index: 30;
+            .header_blockTop_logo{
+                //background: brown;
+                margin-left: 20px;
+                .blockTop_text{
+                    color: white;
+                    font-size: 40px;
+                    text-transform: uppercase;
+                }
+            }
+            .header_blockTop_navbar{
+                width: 100%;
+                height: 90vh;
+                padding: 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                list-style: none;
+                position: absolute;
+                top: 65px;
+                left: -100%;
+                z-index: -1;
+                opacity: 0;
+                transition: 0.3s linear;
+
+                .navbar_li{
+                    width: 100%;
+                    height: 20vh;
+                    padding: 3px;
+                    background:$color-base;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.5s all;
+                    .navbar_link{
+                        color: white;
+                        font-size: 20px;
+                    }
+                    .navbar_link:hover{
+                      color: rgb(255, 255, 255);
+                    }
+                }
+                .navbar_li:hover{
+                    background: brown;  
+                }
+            }
+            .contNavbar_JS{
+                left: 0;
+                opacity: 1;
+            }
+            .header_blockTop_iconGlass{
+                //background:brown;
+                margin-right: 20px;
+                display: block;
+                .iconGlass{
+                    color: rgb(236, 79, 79);
+                    font-size: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        .container_header_line{
+            width:87%;
+            height: 2px;
+            margin: auto;
+            background: rgb(247,59,59);
+            background: linear-gradient(90deg, rgba(247,59,59,1) 0%, rgba(25,34,41,1) 55%);
+            border: none;
+        }
+    
+        .container_header_title{
+            margin-top:100px;
+            text-align: center;
+            color: white;
+            font-size: 70px;
+            
+        }
+    }
+
+
+
+    .container_header_registro{
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container_header_form_{
+            width: 100%;
+            padding: 20px;
+          
+            .container_header_registro_box{
+                width: 100%;
+                padding: 5px 0px;
+                label{
+                    width: 100%;
+                    color: white;
+                    font-size: 20px;
+                }
+    
+                .formInput{
+                    margin-top: 10px;
+                    width: 100%;
+                    padding: 8px;
+                    border: 2px solid brown;
+                    color: grey;
+                    outline: none;
+                    border-radius: 3px;
+                    background: transparent;
+                }
+    
+                .formTextTarea{
+                    margin-top: 10px;
+                    max-width: 100%;
+                    min-width: 100%;
+                    min-height: 100px;
+                    border: 2px solid brown;
+                    background: transparent;
+                    resize: none;
+                    outline: none;
+                    color: grey;
+                    padding: 8px;
+                    font-family: Arial, Helvetica, sans-serif;
+    
+                }
+                .formTextTarea:focus{
+                    border: 2px solid rgb(223, 90, 90);
+                }
+            }
+    
+            .form_btn{
+                width: 100%;
+                padding: 10px 0px;
+                background: brown;
+                color: white;
+                transition: 0.5s all;
+            }
+           
+        }
+    }
+    
+    
 }
