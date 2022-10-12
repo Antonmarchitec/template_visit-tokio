@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="css/preloader.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+
+    <title> Contact </title>
+</head>
+<body>
+
+    <!--PRELOADER-->
+    <div class="preloader" id="preloader">
+        <div class="cssload-preloader cssload-loading">
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+        </div>
+        <h1 class="textPreloader"> Cargando.. </h1>
+    </div>
+
+    <!--CONTAINER HEADER-->
+    <div class="container_header_form">
+        <nav class="container_header_blockTop">
+           <div class="header_blockTop_logo">
+             <h1 class="blockTop_text">MyLogo</h1>
+           </div>
+           
+           <ul class="header_blockTop_navbar">
+               <li class="navbar_li"><a href="/" class="navbar_link" >Home</a></li>
+               <li class="navbar_li"><a href="/" class="navbar_link" >About as</a></li>
+               <li class="navbar_li"><a href="/" class="navbar_link" >Portfolio</a></li>
+               <li class="navbar_li"><a href="/" class="navbar_link" >News</a></li>
+               <li class="navbar_li"><a href="/" class="navbar_link" >Contact</a></li>
+           </ul>
+
+           <div class="header_blockTop_iconGlass">
+               <i class="iconGlass fa-solid fa-bars-staggered"></i>
+           </div>
+        </nav>
+
+        <hr class="container_header_line">
+
+        <h1 class="container_header_title">Contact</h1>
+
+    </div>
+
+
+    <!--CONTAINER FORM-->
+    <div class="container_header_registro">
+        <form action="enviar.php" class="container_header_form_">
+            <div class="container_header_registro_box">
+                <label for="nombre"> Nombre completo </label>
+                <input type="text" placeholder="Antonio Ponce " id="nombre"
+                class="formInput"> 
+            </div>
+
+            <div class="container_header_registro_box">
+                <label for="correo"> Nombre completo </label>
+                <input type="text" placeholder="example@gmail.com " id="correo"
+                class="formInput"> 
+            </div>
+
+            <div class="container_header_registro_box">
+                <label for="descripcion"> Dejame un mensaje </label>
+                <textarea class="formTextTarea" placeholder="Comentario"></textarea>
+            </div>
+
+            <button type="button" class="form_btn"> Enviar Mensaje </button>
+        </form>
+    </div>
+
+    <script src="./js/preloader.js"></script>
+</body>
+</html>

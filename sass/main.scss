@@ -1,7 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior:smooth;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+body{
+    scroll-behavior:unset;
+    font-family: 'Oswald', sans-serif;
+    background: black;
+    
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(212, 40, 40);
+    border-radius: 20px;
+    height: 100px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: rgb(226, 49, 49);
+    height: 150px;
+    
+}
+
+
+
 @import "variables";
 @import "gridBase";
 @import "header";
-@import "grid_header_movil";
+@import "header_movil";
 @import "boxA";
 @import "sectionA";
 @import "sectionC";
@@ -10,3 +50,7 @@
 @import "footer";
 @import "socialMedia";
 @import "btnTop";
+
+
+//CONTACT
+@import "../sass/contact/contact";

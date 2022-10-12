@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="css/preloader.css">
 
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,14 +17,28 @@
 
     <!--VIDEO.JS CDN-->
     <link href="https://vjs.zencdn.net/7.19.2/video-js.css" rel="stylesheet" />
-
     
     <title>Template portfolio 1</title>
 </head>
 <body>
+
+    <!--PRELOADER-->
+    <div class="preloader" id="preloader">
+        <div class="cssload-preloader cssload-loading">
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+            <span class="cssload-slice"></span>
+        </div>
+        <h1 class="textPreloader"> Cargando.. </h1>
+    </div>
+
+
     <div class="grid_container">
 
-        <div class="grid_header_movil">
+        <div class="grid_header_movil" id="header">
             <div class="container_headerMovil">
                 <nav class="container_header_blockTopMovil">
                    <div class="header_blockTop_logoMovil">
@@ -31,11 +46,11 @@
                    </div>
                    
                    <ul class="header_blockTop_navbarMovil" id="header_blockTop_navbarMovil">
-                       <li class="navbar_li"><a href="/" class="navbar_link" >Home</a></li>
-                       <li class="navbar_li"><a href="/" class="navbar_link" >About as</a></li>
-                       <li class="navbar_li"><a href="/" class="navbar_link" >Portfolio</a></li>
-                       <li class="navbar_li"><a href="/" class="navbar_link" >News</a></li>
-                       <li class="navbar_li"><a href="/" class="navbar_link" >Contact</a></li>
+                       <li class="navbar_li"><a href="index.html" class="navbar_link" >Home</a></li>
+                       <li class="navbar_li"><a href="#header" class="navbar_link" >About as</a></li>
+                       <li class="navbar_li"><a href="#portafolio" class="navbar_link" >Portfolio</a></li>
+                       <li class="navbar_li"><a href="#news" class="navbar_link" >News</a></li>
+                       <li class="navbar_li"><a href="contact.html" class="navbar_link" >Contact</a></li>
                    </ul>
    
                    <div class="header_blockTop_iconGlassMovil">
@@ -55,11 +70,11 @@
                 </div>
                 
                 <ul class="header_blockTop_navbar">
-                    <li class="navbar_li"><a href="/" class="navbar_link" >Home</a></li>
-                    <li class="navbar_li"><a href="/" class="navbar_link" >About as</a></li>
-                    <li class="navbar_li"><a href="/" class="navbar_link" >Portfolio</a></li>
-                    <li class="navbar_li"><a href="/" class="navbar_link" >News</a></li>
-                    <li class="navbar_li"><a href="/" class="navbar_link" >Contact</a></li>
+                    <li class="navbar_li"><a href="inde" class="navbar_link" >Home</a></li>
+                    <li class="navbar_li"><a href="#header" class="navbar_link" >About as</a></li>
+                    <li class="navbar_li"><a href="#portafolio" class="navbar_link" >Portfolio</a></li>
+                    <li class="navbar_li"><a href="#news" class="navbar_link" >News</a></li>
+                    <li class="navbar_li"><a href="contact.html" class="navbar_link" >Contact</a></li>
                 </ul>
 
                 <div class="header_blockTop_iconGlass">
@@ -184,7 +199,7 @@
         </div>
          <!--ESTA OCULTO-->
 
-        <div class="grid_sectionC">
+        <div class="grid_sectionC" id="portafolio">
             <section class="container_sectionC">
                 <h2 class="sectionC_h2">Developed projects</h2>
                 <h1 class="sectionC_h1">Portfolio</h1>
@@ -344,7 +359,7 @@
         </div>
          <!--ESTA OCULTO-->
 
-        <div class="grid_sectionB">
+        <div class="grid_sectionB" id="news">
            <div class="container_sectionB">
                <div class="sectionB_gradient">
 
@@ -367,8 +382,6 @@
                   </video>
                     
                </div>
-               
-
            </div>
         </div>
 
@@ -459,7 +472,7 @@
     </section>
 
     <div class="btnTop" id="btnTop">
-        <a href="#header"><i class="btnTop_icon fa-solid fa-arrow-turn-up"></i></a>
+        <a href="index.html"><i class="btnTop_icon fa-solid fa-arrow-turn-up"></i></a>
     </div>
 
 
@@ -468,6 +481,7 @@
     <script src="./js/number.js"></script>
     <script src="./js/socialMedia.js"></script>
     <script src="./js/btn.js"></script>
+    <script src="./js/preloader.js"></script>
    
     <!--video.js-->
     <script src="https://vjs.zencdn.net/7.19.2/video.min.js"></script>

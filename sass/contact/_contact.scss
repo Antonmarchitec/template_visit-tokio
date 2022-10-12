@@ -1,0 +1,141 @@
+
+.container_header_form{
+    width: 100%;
+    height: 300px;
+    background-image:url(../image/image-background.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    .container_header_blockTop{
+        width: 100%;
+        padding: 5px 0px;
+        background:transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .header_blockTop_logo{
+            //background: brown;
+            margin-left: 80px;
+            .blockTop_text{
+                color: white;
+                font-size: 40px;
+                text-transform: uppercase;
+            }
+        }
+        .header_blockTop_navbar{
+            width: 500px;
+            padding: 5px 0px;
+            //background: brown;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            .navbar_li{
+                padding: 3px;
+                //background: rgb(218, 100, 100);
+                .navbar_link{
+                    color: white;
+                }
+                .navbar_link:hover{
+                  color: rgb(236, 85, 85);
+                }
+            }
+        }
+        .header_blockTop_iconGlass{
+            //background:brown;
+            margin-right: 80px;
+            display: none;
+            .iconGlass{
+                color: rgb(236, 79, 79);
+                font-size: 25px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .container_header_line{
+        width:87%;
+        height: 2px;
+        margin: auto;
+        background: rgb(247,59,59);
+        background: linear-gradient(90deg, rgba(247,59,59,1) 0%, rgba(25,34,41,1) 55%);
+        border: none;
+    }
+
+    .container_header_title{
+        margin-top:45px;
+        text-align: center;
+        color: white;
+        font-size: 100px;
+        
+    }
+}
+
+
+.container_header_registro{
+    width: 100%;
+    padding: 10px 0px;
+    background: rgb(25, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container_header_form_{
+        width: 500px;
+        padding: 20px;
+      
+        .container_header_registro_box{
+            width: 100%;
+            padding: 5px 0px;
+            label{
+                width: 100%;
+                color: white;
+                font-size: 20px;
+            }
+
+            .formInput{
+                margin-top: 10px;
+                width: 100%;
+                padding: 8px;
+                border: 2px solid brown;
+                color: grey;
+                outline: none;
+                border-radius: 3px;
+                background: transparent;
+            }
+            .formInput:focus{
+                border: 2px solid rgb(223, 90, 90);
+            }
+
+            .formTextTarea{
+                margin-top: 10px;
+                max-width: 460px;
+                min-width: 460px;
+                min-height: 100px;
+                border: 2px solid brown;
+                background: transparent;
+                resize: none;
+                outline: none;
+                color: grey;
+                padding: 8px;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+            .formTextTarea:focus{
+                border: 2px solid rgb(223, 90, 90);
+            }
+        }
+
+        .form_btn{
+            width: 100%;
+            padding: 10px 0px;
+            background: brown;
+            color: white;
+            transition: 0.5s all;
+        }
+        .form_btn:hover{
+            background: rgb(214, 72, 72);
+            cursor: pointer;
+        }
+    }
+}
