@@ -18,7 +18,8 @@
                          "grid_sectionC      grid_sectionC      grid_sectionC      grid_sectionC"
                          "grid_box_B         grid_box_B         grid_box_B         grid_box_B"
                          "grid_sectionB      grid_sectionB      grid_sectionB      grid_sectionB"
-                         "grid_footer        grid_footer        grid_footer        grid_footer";
+                         "grid_footer        grid_footer        grid_footer        grid_footer"
+                         "grid_copyrigth     grid_copyrigth     grid_copyrigth     grid_copyrigth";
 
 
                          .grid_header_movil{
@@ -66,10 +67,17 @@
                             grid-area: grid_sectionB;
                             
                          }
+
                          .grid_footer{
-                             //padding: 10px 0px;
-                             //background: brown;
-                             grid-area: grid_footer;
+                            //padding: 10px 0px;
+                            //background: brown;
+                            grid-area: grid_footer;
+                         }
+                         
+                         .grid_copyrigth{
+                            //padding: 10px 0px;
+                            //background: brown;
+                            grid-area: grid_copyrigth;
                          }
 }
 
