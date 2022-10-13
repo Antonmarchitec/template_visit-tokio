@@ -17,12 +17,12 @@
 - Página informativa.
 - página de aterrizaje
 - landing page.
-- Template portafolio.
+- Témplate portafolio.
 
 ## Descripción del proyecto: 
-Si eres diseñador grafico, pintor, artista o quiza un programador que recien este iniciando, esta plantilla portafolio podria ser ideal para mostrar tus trabajos personales.
+Si eres diseñador, gráfico, pintor, artista o quizá un programador que recién esté iniciando, esta plantilla portafolio podría ser ideal para mostrar tus trabajos personales.
 
-Si estas pensando crear tu sitio web totalmente personalizado con un diseño unico y minimalista no dudes en escribirme, estaria genial desarrollar algo interesante para tu proyecto!
+¡Si estás pensando crear tu sitio web totalmente personalizado con un diseño único y minimalista, no dudes en escribirme, estaría genial desarrollar algo interesante para tu proyecto!
 
 #DesarrolloWeb
 #LandingPage
@@ -31,8 +31,8 @@ Si estas pensando crear tu sitio web totalmente personalizado con un diseño uni
 #DigitizingCode
 
 
-## Descripcion tecnica:
-Plantilla desarrollada para proyecto portafolio, totalmente personalizada desde cero con HTML, CSS, SASS ,JavaScript, PHP y archivos JSON para extracción de datos, cuenta con un menú de navegación, 4 secciones, integración a enlaces externos, botones flotantes, formulario de contacto con validación direccionado a una cuenta de correo electrónico, botón de desplazamiento de subida, 2 paginas y es adaptable a dispositivos de escritorio (Desktop), tablet y móbil.   
+## Descripción técnica:
+Plantilla desarrollada para proyecto portafolio, totalmente personalizada desde cero con HTML, CSS, SASS ,JavaScript, PHP y archivos JSON para extracción de datos, cuenta con un menú de navegación, 4 secciones, integración a enlaces externos, botones flotantes, formulario de contacto con validación direccionado a una cuenta de correo electrónico, botón de desplazamiento de subida, 2 páginas y es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.   
 
 Nota: Los videos no se reproducen porque se encuentran en un repositorio de prueba y no en un hosting.
 
