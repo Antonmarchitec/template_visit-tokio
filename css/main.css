@@ -83,8 +83,8 @@ body::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.55);
   border: 3px solid #121212;
   position: fixed;
-  bottom: 20px;
-  right: 90px;
+  bottom: 60px;
+  right: 10px;
   z-index: 50;
   display: flex;
   justify-content: center;
@@ -1194,7 +1194,7 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 10px 0px;
     position: fixed;
     right: 0px;
-    top: 300px;
+    top: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -2456,7 +2456,7 @@ body::-webkit-scrollbar-thumb:hover {
 @media (min-width: 481px) and (max-width: 640px) {
   .container_sectionB {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: url(../image/por6.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -2492,12 +2492,12 @@ body::-webkit-scrollbar-thumb:hover {
     font-weight: 100;
   }
   .container_sectionB .sectionB_media {
-    width: 60%;
+    width: 98%;
     padding: 20px 0px;
     position: absolute;
     right: initial;
-    left: 20%;
-    top: 270px;
+    left: 5px;
+    top: 290px;
   }
   .container_sectionB .sectionB_media .video-js {
     width: 100%;
@@ -2531,7 +2531,7 @@ body::-webkit-scrollbar-thumb:hover {
 @media (min-width: 320px) and (max-width: 480px) {
   .container_sectionB {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: url(../image/por6.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -2560,11 +2560,11 @@ body::-webkit-scrollbar-thumb:hover {
     font-weight: 100;
   }
   .container_sectionB .sectionB_media {
-    width: 70%;
+    width: 98%;
     padding: 20px 0px;
     position: absolute;
     right: initial;
-    left: 15%;
+    left: 3px;
     top: 280px;
   }
   .container_sectionB .sectionB_media .video-js {
@@ -2770,7 +2770,7 @@ body::-webkit-scrollbar-thumb:hover {
   background: rgb(247, 95, 95);
   position: fixed;
   bottom: 20px;
-  right: 40px;
+  right: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
