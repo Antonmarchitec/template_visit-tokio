@@ -2821,8 +2821,8 @@ span*/
 
 .container_header_form {
   width: 100%;
-  height: 300px;
-  background-image: url(../image/image-background.jpg);
+  height: 350px;
+  background-image: url(/image/por5.jpg);
   background-size: 100% 100%;
   position: relative;
 }
@@ -2953,9 +2953,7 @@ span*/
 @media (min-width: 320px) and (max-width: 720px) {
   .container_header_form {
     width: 100%;
-    height: 200px;
-    background-image: url(../image/image-background.jpg);
-    background-size: 100% 100%;
+    height: 260px;
     position: relative;
   }
   .container_header_form .container_header_blockTop {
