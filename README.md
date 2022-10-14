@@ -34,7 +34,7 @@ Si eres diseñador, gráfico, pintor, artista o quizá un programador que recié
 ## Descripción técnica:
 Plantilla desarrollada para proyecto portafolio, totalmente personalizada desde cero con HTML, CSS, SASS ,JavaScript, PHP y archivos JSON para extracción de datos, cuenta con un menú de navegación, 4 secciones, integración a enlaces externos, botones flotantes, formulario de contacto con validación direccionado a una cuenta de correo electrónico, botón de desplazamiento de subida, 2 páginas y es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.   
 
-Nota: Los videos no se reproducen porque se encuentran en un repositorio de prueba y no en un hosting.
+Nota: Los videos no se reproducen porque se encuentran en un repositorio de prueba.
 
 ## Diseño responsivo:
 - Desktop: 1440px
@@ -42,17 +42,17 @@ Nota: Los videos no se reproducen porque se encuentran en un repositorio de prue
 - Móvil: 320px
 
 ## Vista previa:
-https://antonmarchitec.github.io/Template-portfolio-example-1/
+https://antonmarchitec.github.io/template_visit-tokio/
 
 ## Frase del día:
-"Cualquiera que tenga iniciativa, será siempre criticado por ir demasiado rápido porque siempre hay alguien que quiere que caigas".
--- Mark Zuckerberg --
+“Decimos a nuestros empleados que si nadie se ríe al menos de una de sus ideas, probablemente es que no están siendo lo suficientemente creativos”.
+-- Bill Gates --
 
 ## Imagen del proyecto.
+![PORTAFOLIO](https://user-images.githubusercontent.com/70084380/195760271-ee6882a3-0796-488a-924b-f4ec6b2243f8.jpg)
 
 
-Tomar en cuenta esta pagina para guiarme
-https://www.henmalura.com/project/productos-de-desinfeccion/
+
 
 
 
