@@ -1190,16 +1190,7 @@ body::-webkit-scrollbar-thumb:hover {
     letter-spacing: 1px;
   }
   .container_header .container_header_numbers {
-    width: auto;
-    padding: 10px 0px;
-    position: fixed;
-    right: 0px;
-    top: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 20;
+    display: none;
   }
   .container_header .container_header_numbers .container_header_contNumbers {
     padding: 5px;
